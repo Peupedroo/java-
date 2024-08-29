@@ -1,0 +1,17 @@
+public class Pessoa {
+    int idade ;
+    double dinheiro;
+    String nome;
+    public void niver() {
+        idade++;
+    }
+
+    public void falar (){
+        System.out.println("oi" + nome );
+    }
+    public void salario (){
+        System.out.println();
+    }
+
+
+}
