@@ -1,0 +1,36 @@
+import java.util.Scanner;//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+
+        Pessoa p = new Pessoa();
+        Scanner sc = new Scanner(System.in);
+        Scanner sc2 = new Scanner(System.in);
+        Scanner s3 = new Scanner(System.in);
+
+        System.out.println("informe sua idade ");
+        p.idade= sc.nextInt();
+        System.out.println(p.idade);
+        System.out.println("informe o seu nome ");
+        p.nome = sc2.next();
+        System.out.println(p.nome);
+        System.out.println("informe seu salario");
+        p.dinheiro = sc.nextInt();
+        System.out.println("seu salario e " + p.dinheiro);
+
+
+
+
+
+
+        p.niver();
+        p.falar();
+        p.salario();
+
+
+
+
+
+
+    }
+}
